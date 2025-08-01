@@ -15,53 +15,15 @@ pip install Pillow pytesseract tqdm termcolor pyyaml python-docx
 ```
 Install Tesseract OCR. Follow the instructions here: [Tesseract OCR Installation](https://github.com/tesseract-ocr/tesseract).
 
-
 ## Usage
-1. Place the script in the directory containing the files you want to process.
-2. Run the script using Python:
+1. Run the script using Python:
    ```bash
-   python script_name.py
+   python gpt_compiler.py
    ```
-3. Optional flags:
+2. Select the directories and files to process.
+3. Name the output file and choose the output format.
+4. Optional flags:
    - `--debug`: Enable debug mode for verbose logging.
-
-
-
-4. Optional venv setup:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate
-   pip install -r requirements.txt
-   ```
-
-
-
-## USAGE 2
-
-.\venv\Scripts\activate
-
-
-
-## Flow
-
-1. Gather knowledge sources into folder.
-   - gpt-crawler
-   - custom gpts
-   - reddit posts
-   - documentation
-   - code examples
-   - images, pdfs, etc.
-2. Execute python .  script to process all files in the folder.
-   - Extract text from all files.
-   - Extract data from structured files (json, csv, xml, etc.)
-   - Extract data from images (OCR)
-   - Organize data into a structured format.
-   - Log progress and important information.
-   - Handle errors gracefully.
-   - Runs gpt-crawler, for example with the following command:
-      ```bash
-      python ./src --url "https://scriptgpt.wiki/" --match "https://scriptgpt.wiki/**" --project "ScriptGPT"
-      ```
 
 ## Features
 - Processes files in various formats, extracting relevant data.

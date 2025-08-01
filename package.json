@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"crawl": "python ./src --url https://scriptgpt.wiki/ --match https://scriptgpt.wiki/** --project ScriptGPT",
+		"example": "python ./src --url https://scriptgpt.wiki/ --match https://scriptgpt.wiki/** --project ScriptGPT"
+	},
+	"dependencies": {
+		"@builder.io/gpt-crawler": "github:BuilderIO/gpt-crawler"
+	}
+}

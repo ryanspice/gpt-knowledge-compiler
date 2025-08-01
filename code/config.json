@@ -1,0 +1,40 @@
+{
+	"project_name": "~sgp-test-1.0",
+	"src_folder": "source/web_src",
+	"output_folder": "output",
+	"text_chunk_size_bytes": 42428800,
+	"json_chunk_size_bytes": 42428800,
+	"max_line_length": 500,
+	"log_level": "INFO",
+	"log_to_file": true,
+	"log_file_path": "log.txt",
+	"color_scheme": {
+		"INFO": "green",
+		"ERROR": "red",
+		"WARNING": "yellow",
+		"DEBUG": "blue"
+	},
+	"excludes": {
+		"small_images": {
+			"enabled": true,
+			"size_threshold": 1024
+		},
+		"exclude_images": false,
+		"exclude_images_at_root": false,
+		"exclude_config_files": true,
+		"exclude_lock_files": true
+	},
+	"projects": {
+		"mozilla": {
+			"enabled": true,
+			"src_folder": "mozilla_src",
+			"output_folder": "output/mozilla"
+		},
+		"another_project": {
+			"enabled": false,
+			"src_folder": "another_project_src",
+			"output_folder": "output/another_project",
+			"exclude": {}
+		}
+	}
+}

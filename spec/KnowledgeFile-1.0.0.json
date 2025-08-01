@@ -1,0 +1,61 @@
+{
+	"Knowledge File Help": {
+		"Script Functionality": {
+			"description": "Process a wide range of file types and organize them into a structured format. This format is designed to merge several sources of information in order to add more value in the kowledge base of the Custom GPT",
+			"fileTypes": [
+				"JSON",
+				"CSV",
+				"XML",
+				"Text",
+				"Markdown",
+				"Docx",
+				"Images",
+				"PDFs"
+			]
+		},
+		"Metadata Understanding": {
+			"fields": [
+				{
+					"file_name": "Name of the processed file."
+				},
+				{
+					"file_size": "Size of the file."
+				},
+				{
+					"source": "File's origin path."
+				}
+			],
+			"usage": "Crucial for tracking characteristics and origins of each data item."
+		},
+		"Nested JSON Navigation": {
+			"description": "Handle nested JSON structures in the organize_data function.",
+			"importance": "Maintain relationship between metadata and corresponding data."
+		},
+		"Parsing Logic": {
+			"description": "Logic to exclude certain files and process directories based on file attributes.",
+			"specialHandling": [
+				"Base64 conversion for images",
+				"Splitting large text into chunks"
+			]
+		},
+		"Large DataSet Management": {
+			"description": "Employ chunking strategies for large JSON and text data.",
+			"note": "Important for GPT models with input size limitations."
+		},
+		"Error Handling": {
+			"description": "Check file existence and handle errors during processing.",
+			"methods": [
+				"Logging mechanism for error tracking",
+				"Robust error handling"
+			]
+		},
+		"Metadata Usage": {
+			"description": "Use metadata to effectively organize data.",
+			"purpose": "Maintain data integrity and retrievability."
+		},
+		"Output Formatting": {
+			"description": "Format outputs into a structured JSON format.",
+			"dataOrganization": "Preserve the relationship between data and metadata."
+		}
+	}
+}

@@ -1,0 +1,21 @@
+[97m[32mINFO[0m[0m: Parsing file: phuoc.ng-1.json (Size: 5108349 bytes)
+[97m[32mINFO[0m[0m: Processing JSON file: phuoc.ng-1.json
+[97m[32mINFO[0m[0m: Parsing file: singlepageappbook-1.json (Size: 152345 bytes)
+[97m[32mINFO[0m[0m: Processing JSON file: singlepageappbook-1.json
+[97m[34mDEBUG[0m[0m: Processing file name phuoc.ng-1.json
+[97m[34mDEBUG[0m[0m: Determining data type for file phuoc_ng-1_json with extension .json
+[97m[34mDEBUG[0m[0m: Data type: json
+[97m[34mDEBUG[0m[0m: Organizing data from file phuoc.ng-1.json under key phuoc_ng-1_json
+[97m[34mDEBUG[0m[0m: Data type: json
+[97m[34mDEBUG[0m[0m: Size of JSON data: 5124861 bytes
+[97m[34mDEBUG[0m[0m: Processing file name singlepageappbook-1.json
+[97m[34mDEBUG[0m[0m: Determining data type for file singlepageappbook-1_json with extension .json
+[97m[34mDEBUG[0m[0m: Data type: json
+[97m[34mDEBUG[0m[0m: Organizing data from file singlepageappbook-1.json under key singlepageappbook-1_json
+[97m[34mDEBUG[0m[0m: Data type: json
+[97m[34mDEBUG[0m[0m: Size of JSON data: 152361 bytes
+[97m[34mDEBUG[0m[0m: Organized data from 2 files.
+[97m[32mINFO[0m[0m: Merged data saved to output\2024-02-20_01-08-57_~sgp-test-1.0.json (Size: 5949544 bytes)
+[97m[32mINFO[0m[0m: Total files processed: 0
+[97m[32mINFO[0m[0m: Size difference from source: 688850 bytes
+[97m[32mINFO[0m[0m: Script execution completed successfully.
